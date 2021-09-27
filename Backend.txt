@@ -1,1 +1,22 @@
 Client-Server Model
+Endpoints
+  Where we define how our server can be interacted with
+Node.js
+  A JavaScript runtime environment
+    Allows us to run JavaScript in an environment outside of the browser, like on our terminals
+    Built on Chrome's V8 JavaScript engine
+    Use commande 'node' in terminal
+      Can follow with file name to run file
+  Nodemon
+    Node only runs file once
+    Package that watches files and restarts Node for us
+    To install, run "npm install -g nodemon"
+    Use command 'nodemon file.name' to run file
+  NPM
+    Node Package Manager
+    Gives access to packages and libraries
+    Use 'npm init -y' to set up project
+  Express
+    Minimal, flexible framework for building servers
+    Fast, unopinionated, minimalist
+    Must be required/imported

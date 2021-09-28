@@ -1,0 +1,4 @@
+Refactoring
+  Consider writing controller files (Javascript) to handle separate concerns.  
+  Consider decorators to handle repeated concerns (ex. check if user is logged in to view page) (Python)
+  

@@ -22,6 +22,8 @@ Types of requests
     Param comes in as string datatype
       Convert it if needed
     On back-end - handle splicing/deleting
+    Handling errors - 
+      Status 404 - Not Found
 Node.js
   A JavaScript runtime environment
     Allows us to run JavaScript in an environment outside of the browser, like on our terminals

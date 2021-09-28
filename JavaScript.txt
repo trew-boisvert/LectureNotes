@@ -1,0 +1,4 @@
+Destructuring (Object Destructuring)
+  Assign multiple property names at once
+  example - let { username, firstname, lastname} = req.body
+    In this syntax, the equal sign works differently than usual

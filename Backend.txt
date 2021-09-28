@@ -2,10 +2,26 @@ Client-Server Model
 Endpoints
   Where we define how our server can be interacted with
 Types of requests
-  POST - from the front-end
+  POST - Creates resource
     Gives an object to the back-end
+      Datatypes preserved within object
       Back-end dictates what info front-end should be sending
     Back-end handles the object and sends a response to the front-end
+    Handling errors
+      Think about how to handle edge cases, code in protections
+      Users can send in the wrong info, or not enough info
+      Status 400 - Bad Request
+        Good for if you don't get all the info you need (form fields left unfilled)
+  PUT - Edits resource
+    Used to update existing content
+    Does not require all the properties of an object to be passed in
+    Gives param of current date and passes in object with update
+    On the back-end, it updates object entry that matches the param passed in
+  DELETE - Removes resource
+    Requires param to identify which object to delete
+    Param comes in as string datatype
+      Convert it if needed
+    On back-end - handle splicing/deleting
 Node.js
   A JavaScript runtime environment
     Allows us to run JavaScript in an environment outside of the browser, like on our terminals

@@ -1,0 +1,34 @@
+Application Programming Interface
+Provide info and capabilities to developers
+Important to read API documentation to figure out if it's what you need
+RESTful API - Representational State Transfer Application Programming Interface
+  Set of standards for API architecture
+  URLs are uniform and meaningful
+  Client and server are independent of each other
+    Can be different languages
+  HTTP(S) is the protocol
+  Each request is independent
+  Consistent, predictable and meaningful endpoint naming is important
+  Use hierarchy in designing endpoints to help stay organized (ex. /albums ==> /albums/<id> ==> /albums/<id>/tracks
+Streaming APIs passively listen to you and are constantly active (ex. Twitter)
+Accessing data
+  Look for documentation
+    Lists available endpoints
+    How to format
+    Rate Limits
+      Per minute, hour, day, lifetime, IP address, User ID
+  Authentication
+    To track requests
+    Generate analytics
+    Require permission
+    
+Postman
+  Tool lets us test out APIs
+  Layout - 
+    Top has to do with request
+      Change type of request (POST, GET, DELETE)
+      Specify URL
+      Add body if needed
+    Bottom has to do with response
+      See returned data, cookies, headers
+  

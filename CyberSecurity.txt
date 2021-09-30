@@ -1,0 +1,55 @@
+Cryptography -
+  Techniques for secure communication
+  Plaintext is the original message
+  Ciphertext is the enciphered message
+  Caesar Cipher -
+    Shift each letter by 3, Z wraps back to A
+    Very easy to crack
+  Using a key helps increase security
+  Brute Force - 
+    "Breaking" a code by trying all possible combinations
+  Digital Algorithms -
+    DES -
+      56-bit key
+      No longer safe
+    Triple-DES - 
+      118-bit key length
+      DES three times in a row
+      Slow but secure
+    AES - 
+      Has three key lengths (128, 192, 256)
+      Extremely secure
+  Public Key Encryption - 
+    Public Key and Private Key
+    Things encrypted with public key can be decrypted by private key, and vice versa
+    RSA algorithm is a trap door function
+      Uses math operations that are easy to do forward but difficult to do backwards
+    Asymmetric and Symmetric encryption are often used together
+  Hashes - 
+    No way to turn number back into full file
+    Any change to file will result in different hash
+    Good for checking that file hasn't been changed
+  HTTPS Protocol - 
+    Client suggests asymmetric and symmetric method to use together
+    Server gives public key and certificate verifying server is not fake
+    Client gives session key encoded with public key
+    Server decodes session key using its private key
+    Client encrypts request with session key
+    Server encrypts reply with session key
+  OAuth / APIs
+    When one website lets you authenticate using your credentials from a different website
+    OAuth needs - 
+      Your access token
+      Timestamp
+      Nonce (random string, never re-used)
+      Hash of everything above
+      
+      This proves when request was made, 
+        that it was made by you,
+        that nothing was changed, 
+        and prevents re-using a request
+  SSH - 
+    Gets a remote terminal set up on server
+    Secure Shell
+    Public key on server, private key on laptop
+    Server keeps list of allowed public keys

@@ -53,3 +53,28 @@ Cryptography -
     Secure Shell
     Public key on server, private key on laptop
     Server keeps list of allowed public keys
+Security Vulnerabilities -
+  OWASP - Open Web Application Security Project https://owasp.org/
+    Non-profit working to improve software security
+    Major threats to websites - 
+      SQL Injection - 
+        Need to validate, filter, or sanitize user-supplied data
+        Keep data separate from commands and queries
+        Use safe API or ORMs
+      Broken Authetntication - 
+        Happens when website 
+          allows unlimited login attempts, 
+          permits weak passwords
+          uses weak credential recovery
+        To protect against it
+          Use multi-factor authentication
+          Require complex passwords
+          Limit or delay failed login attempts
+        Credential Stuffing - 
+          Hacker tries to brute force access by trying a bunch of user names and passwords
+      Broken Access Control - 
+        Certain features only accessible to certain users
+        Weak websites can be hacked by editing the URL
+        To protect against - 
+          Deny access to features by default
+          Use access control mechanisms

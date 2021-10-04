@@ -2,7 +2,10 @@ Solving a Maze Coding Challenge
   1. Hardcode solution for a particular maze
   2. Las Vegas Algorithm - 
     Pick randomly at every junction
-  
+  3. Left Hand On Wall - 
+    Not most efficient
+    Guaranteed to work
+    If you can turn left, turn left.  If you can move forward, move forward, otherwise turn right.
 
 Refactoring
   Consider writing controller files (Javascript) to handle separate concerns.  

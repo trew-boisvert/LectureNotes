@@ -1,4 +1,5 @@
 Application Programming Interface
+  How we interact with something
 Provide info and capabilities to developers
 Important to read API documentation to figure out if it's what you need
 RESTful API - Representational State Transfer Application Programming Interface

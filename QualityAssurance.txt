@@ -1,0 +1,43 @@
+Test Suite should contain:
+  Overview
+    What you are testing for, generally-speaking
+  Links
+    Links to what you are testing
+  Test Criteria
+    Get specific about what you're testing
+    Ex. Name field should be editable, Edited info should persist, etc
+  Entry Criteria
+    What we need to be able to start testing
+    Ex. Working site, test criteria, computer for testing
+  Exit Criteria
+    How do we know we're done
+    Ex. All tests pass, time has run out
+
+Test Cases should contain:
+  Steps
+    How to complete test (be specific)
+    Ex. Navigate to site, see if employees are listed, refresh page, check if employee list persists
+  Test Postconditions
+    What a successful test looks like
+    Requirements for passing the test
+    
+Bug Report should contain:
+  Description
+    What is the bug
+  Steps to Reproduce
+    How to make it happen
+    Ex. On site, view this profile, view ID on profile
+  Expected Result
+    What should have happened
+  Actual Result
+    What happened instead
+  Environment
+    What browser, what OS, which version of each
+    Ex. Windows 10, Google Chrome ver. 94.04...
+  Screenshots and Videos
+    Provides extra information about bug
+    
+Tools for testing:
+  Trello
+    trello.com
+    Create tickets and keep track of status

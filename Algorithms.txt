@@ -1,0 +1,2 @@
+Algorithm -
+  Kinda means the psuedocode, because you can code the same algorithm in different languages

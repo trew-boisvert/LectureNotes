@@ -1,0 +1,6 @@
+Binary Search -
+  Keep guessing middle value until you hit the answer
+  Eliminates as many choices as possible per guess
+Bubble Sort - 
+  Examine pairs, swap lower to left
+  When no more swaps possible, list is sorted

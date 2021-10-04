@@ -1,4 +1,10 @@
+Solving a Maze Coding Challenge
+  1. Hardcode solution for a particular maze
+  2. Las Vegas Algorithm - 
+    Pick randomly at every junction
+  
+
 Refactoring
   Consider writing controller files (Javascript) to handle separate concerns.  
   Consider decorators to handle repeated concerns (ex. check if user is logged in to view page) (Python)
-  
+

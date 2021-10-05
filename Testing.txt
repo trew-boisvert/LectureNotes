@@ -73,3 +73,8 @@ Test-Driven Development
 Jest
   Unit testing library
   jestjs.io
+  jestjs.io/docs/expect
+  create-react-app.dev/docs/running-tests/#filename-conventions
+  Put tests in __tests__ folders or filename.test.js or filename.spec.js
+  Use describe block to group related tests
+  

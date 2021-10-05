@@ -1,0 +1,75 @@
+Functional Testing
+  Asks "Does it do what it should?"
+  Black Box Testing
+  Make sure everything is working as it should
+  
+Exploratory Testing
+  Mimic things a user might do in the app
+  Get used to application you're testing
+  
+Regression Testing
+  Making sure what worked before still works
+  Checking to see if your bug fix broke something else
+  Automation is really helpful here
+  
+Non-functional Testing
+  Tests aspects like performance, usability, reliability, accessibility
+    Ex. What happens if a bunch of users log in at the same time?
+    Ex. Is starting the car intuitive?  Is it easy to use?  Is the car clean and well-organized?
+    Performance Testing -
+      Is it fast enough?
+      Can it handle enough traffic?
+    Usability testing - 
+      Testing that considers the user perspective
+      What would the user think of this program?
+      Does it make sense?
+      Intuitive locations, industry standards
+      Clean workflow, simple design
+      Can I see everything I need to?  Font size, style, color schemes
+      Is there anything I wish I could add or change?
+  Does it do what it does well?
+  Technical perspective
+  Customer perspective
+  
+Confirmation Testing
+
+Unit Tests
+  Test smallest code blocks
+  Used to test a single function
+  Code based
+  White Box testing, Clear Box, Glass Box
+  Developers usually perform these tests
+  Helps find bugs early
+  How to write a unit test
+    Import functions to be tested
+    Set up test with description of test and callback function
+    npm run to run tests, check console for results
+  
+Endpoint Testing
+  Test an endpoint, like by using Postman
+Component Testing
+  Test a component in a simulated environment
+End to End Testing
+  Simulate a user interacting with application
+
+Layers of Testing
+  Planning
+    Understand the program and what to test
+    Test plans great for team and stakeholders
+    Do a little exploratory testing and take notes
+      Report any findings, like bugs
+  Testing
+  Reporting
+  Follow up
+    Did you report what you found?
+    Test summary?
+    Confirm that bugs are fixed?
+    
+Test-Driven Development
+  Figure out what you want code to do
+  Write tests based on that
+  Write code to pass the tests
+  
+Jest
+  Unit testing library
+  jestjs.io

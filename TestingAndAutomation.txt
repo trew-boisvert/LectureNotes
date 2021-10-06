@@ -78,3 +78,37 @@ Jest
   Put tests in __tests__ folders or filename.test.js or filename.spec.js
   Use describe block to group related tests
   
+Writing Scripts - Automation
+  Need to be very specific, interact with DOM correctly
+  Automated testing is faster to execute, therefore cheaper as well
+  Automated tests are more reliable
+  We can control order of how tests are run
+  Doesn't work well for features that are changing
+  Need to locate/identify things you'l interact with
+  Write instructions to interact with browser, check info returned with assertions
+  Find locators for elements, identify them correctly
+    Use developer inspector tools to find selectors
+    XPath - more like directions
+    Can target by:
+      element
+      .classname
+      #idname
+      element[attribute="value"]
+      Xpath Locators - 
+        Use structure of elements (nodes) in page to determine location
+  Stack - 
+    Jest, Typescript, Selenium WebDriver
+      Typescript - 
+        'superset' of Javascript that enforces typing, amongst other things
+        Helps us catch bugs by checking types before code compiles
+        Doesn't allow data variable types to change (number can't become string)
+        Can set up test to only work when data is formatted correctly
+        Declaring type- 
+          var word: string = 'yeah';
+          var pack: number = 12;
+          var valid: boolean = true;
+      Selenium WebDriver -
+        selenium.dev
+        Hooks into browser directly
+        Selenium Grid can run multiple tests across multiple servers at the same time
+        Use WebDriver Bindings to hook into site and interact with browser

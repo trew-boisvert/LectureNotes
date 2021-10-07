@@ -1,0 +1,41 @@
+Deployment usually falls to DevOps teams, but smaller companies don't have those.
+Once application has made it through QA, it's ready to be deployed
+    Platform as Service -
+      Platform for software creation
+      Built toolbox, very simple
+      Everything is set up for you, you can just use it
+    Infrastructure as Service
+      Requires more configuration
+      More customizable
+      Good if you have more specific needs
+Options - 
+  Heroku
+    PAAS
+    Free tier for non-production apps
+    Connects to GitHub
+    Highly simplified process
+    Option to add custom domains
+  Glitch
+  Digital Ocean
+    IAAS
+    Low cost option
+    SSH access to droplets
+    Advanced analytics
+  AWS
+  Azure
+  
+How to Deploy
+  Depending which platform you choose, process varies
+  Click Create App
+  Choose unique name and click Create App
+  Connect to Github
+  Deploy Branch
+  View
+Adding Domain Names
+  First register for a domain name
+    GoDaddy
+    Name.com
+    NameCheap
+  Both DNS provider and hosting service provide instructions, which might conflict
+SSL - lets you use different protocols like HTTPS
+File Transfer Size - change limits on file upload sizes

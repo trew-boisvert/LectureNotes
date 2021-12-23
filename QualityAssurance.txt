@@ -41,3 +41,15 @@ Tools for testing:
   Trello
     trello.com
     Create tickets and keep track of status
+  Jira
+    Track tasks with teammates
+    
+Types of Testing:
+  Blackbox Testing
+  Whitebox Testing
+  Manual Testing
+  Automated Testing
+  Component/Unit Testing
+  Integration Testing
+  Penetration Testing
+  Regression Testing

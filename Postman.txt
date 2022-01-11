@@ -1,1 +1,30 @@
 Notes on using Postman
+
+Postman is a tool to help you interact with APIs.
+  -It allows you to test APIs for functionality as part of testing
+  -Can help you document how API works
+  -Can use History tab on left sidebar to reload old requests/headers/bodies/etc
+  -Can use presets to save headers for repeat use
+    -You may need G-Tokens or Authorization to make calls to the API
+    -Allows you to create groups of preset headers
+  
+Authorization
+  -You might need authorization to perform certain calls, like DELETE
+
+Environments
+  -Located on left sidebar
+  -Can set host
+  -Once environment is created, you can use name placed between {{ }} for URL
+  -Helpful for setting up testing and dev environments
+  
+Making API request with Postman
+  GET
+    -Use GET requests with URL/URL with query string
+    -Can generate query strings for you when you include/exclude parameters
+  POST
+    -Select POST, provide destination URL
+    -Under Body header, create object you want to post
+    -API will only accect raw data, use Content-Type to figure out/specify what type
+  DELETE
+    -Select DELETE and provide destination URL with object id to delete
+    -You may need authorization to perform this task

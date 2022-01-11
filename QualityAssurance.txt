@@ -43,6 +43,8 @@ Tools for testing:
     Create tickets and keep track of status
   Jira
     Track tasks with teammates
+  NPM (for apps using Node.js)
+    Automate running scripts to save time
     
 Types of Testing:
   Blackbox Testing

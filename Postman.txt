@@ -7,6 +7,8 @@ Postman is a tool to help you interact with APIs.
   -Can use presets to save headers for repeat use
     -You may need G-Tokens or Authorization to make calls to the API
     -Allows you to create groups of preset headers
+  -Can capture requests 
+  -Can be integrated with GitHub and Slack
   
 Authorization
   -You might need authorization to perform certain calls, like DELETE
@@ -16,6 +18,18 @@ Environments
   -Can set host
   -Once environment is created, you can use name placed between {{ }} for URL
   -Helpful for setting up testing and dev environments
+
+Tests
+  -Postman comes with some preset test snippets
+  -Can create test suites
+  
+Newman
+  -Can download to run Postman tests from Command Line
+  
+Mocking
+  -Can create mock servers, including mock server link
+  -Can mock features
+  -Can mock response codes
   
 Making API request with Postman
   GET
@@ -28,3 +42,5 @@ Making API request with Postman
   DELETE
     -Select DELETE and provide destination URL with object id to delete
     -You may need authorization to perform this task
+  PATCH
+    -May require authorization

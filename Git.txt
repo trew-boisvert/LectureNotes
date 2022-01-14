@@ -1,0 +1,3 @@
+-When you are setting up a repository in git, be sure to include a .gitignore file.
+  -Add the names of files and directories that you don't want git to track
+    -Such as node.modules or sensitive information

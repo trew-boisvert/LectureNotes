@@ -13,3 +13,21 @@ Refactoring
 
 Common Approach to Problem-solving
   Make it work, make it fast, make it beautiful.
+
+History of the Web
+  Packet switching research started in 1960s
+  NPL and ARPANET created in late 1960s
+  Satellite link between US and Europe in 1972
+  IP4 Published in 1981
+  WorldWideWeb started in 1989
+  First Web Browser in 1990
+  CSS created in 1994
+  Javascript created in 1995
+  Internet on mobile phones in 1999
+  Google Chrome started in 2008
+  
+How Internet Works
+  Client (Web browser) makes request to server
+  Resources identified by URLs
+  HTTP (GET, POST, etc) protocol to transfer resources
+  Server returns document through HTTP protocol. 

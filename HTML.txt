@@ -1,4 +1,30 @@
 Hypertext Markup Language
   Used to create web pages and web applications
   Standard markup language
+  HTML5 is current version
+  https://caniuse.com
+    -Shows which browsers support which HTML elements
   
+HTML documents
+  -Every element has open and close elements
+    <html></html>
+      -Contains head and body elements
+    <head></head>
+      Contains meta information
+      Char set data
+      Title, which appears at top of browser tab
+      Script tags
+    <body></body>
+      Contains content of page
+      Can contain header tag, which might contain nav tag
+      Contains main tag
+      Contains footer tag
+    <audio>
+      Deals with playing sound on your page
+    <canvas>
+      Allows for drawing
+    <form>
+      Create forms for users
+      Use this to POST information from browser to server
+    <video>
+      Can play videos in the browser

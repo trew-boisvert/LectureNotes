@@ -1,0 +1,42 @@
+Cascading Style Sheets
+  Used to style HTML
+  Can be added in-line in the HTML elements
+  Can also have a <style> tag and put styles at top of document
+  Can also write external style sheet, which gets linked to HTML file
+  Web browser does work of interpreting documents and styling page
+    Not all browsers support all elements and styles
+  
+CSS Syntax Selectors
+  Select by element, class, id, nested elements, or multiple elements
+  Order of Priority-
+    !important - highest priority
+    ID - higher priority
+    Class - priority
+    Element - lower priority
+    
+CSS Libraries
+  Provides pre-made styles
+    Bootstrap
+      Add link to head
+      Can create responsive columns
+    Hamburgers.css
+    Font-Awesome
+    Ionic
+    Materialize
+  
+CSS Preprocessors
+  Gets compiled into CSS document
+  Can make more easily maintained style documents
+    SASS
+    LESS
+    
+Advanced CSS Syntax
+  Examples from Pluralsight lecture - HTML, CSS, and Javascript: The Big Picture
+    @media screen and (min-width: 480px) {
+      body {
+        background-color: lightgreen;
+      }
+    }
+    
+  Gradient
+    background: linear-gradient(red, yellow);

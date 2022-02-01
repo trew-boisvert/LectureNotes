@@ -1,3 +1,33 @@
+High-level, interpreted programming language
+ECMAScript
+Not related to Java
+
+JavaScript Libraries and Frameworks
+  Can use pre-made functionality
+  Potential risk because you don't know what the Javascript is doing when you use libraries
+  JQuery
+  Dojo Toolkit
+  Prototype.js
+  Bootstrap
+  Velocity.js
+  D3.js
+  Angular
+    Must link library into HTML using script tag
+    Streamlines some complex functionality, like data-binding
+  Backbone.js
+  Ember.js
+  Knockout
+  Node.js
+  Vue.js
+  React
+  Typescript
+
+With HTML
+  Can be written in-line in an HTML element
+  Can write inside of script tags
+  Can be written in js file, then referred to in script tag with src 
+    ex) <button type="button" onclick="alert('This is an alert using Javascript')">Show Alert</button>
+
 Destructuring (Object Destructuring)
   Assign multiple property names at once
   example - let { username, firstname, lastname} = req.body

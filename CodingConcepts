@@ -29,5 +29,6 @@ History of the Web
 How Internet Works
   Client (Web browser) makes request to server
   Resources identified by URLs
+  HTTP (Hyper Text Transfer Protocol)
   HTTP (GET, POST, etc) protocol to transfer resources
   Server returns document through HTTP protocol. 

@@ -1,0 +1,42 @@
+Interpreted Language
+It's important to use consistent indentation, or you will get an indentation error
+
+Primitive Data Types
+  Int
+    A whole number
+    Can convert a float to an int with int()
+  Float
+    A number with decimals
+    Can convert an int to a float with float()
+  String
+    Strings store text
+    Can be marked with single quotes or double quotes
+    If you want to use a quote inside a string, you need to escape that character
+    Strings can be concatenated using a +
+  Boolean
+    Stores a True or False value
+    
+Comparators
+  Less than <
+  Less than or equal to <=
+  Equal ==
+  Greater than or equal to >=
+  Greater than >
+  Not equal !=
+  
+Logical Operators
+  Or
+    Combine multiple comparisons
+    Stops at first true
+  And
+    Combine multiple comparisons
+    Stops at first false
+  Not
+    Negate a comparison
+    
+Basic functions
+  print()
+    Print to the screen
+  input()
+    Used to collect input from user
+    Input is saved as a string

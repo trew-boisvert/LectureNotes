@@ -15,6 +15,16 @@ Primitive Data Types
     Strings can be concatenated using a +
   Boolean
     Stores a True or False value
+
+Lists
+  An iterable collection of values
+  Zero-indexed
+  An item's index is it's location in the list
+  Created using square brackets
+Dictionaries
+  Stores keys connected to values in key value pairs
+  If you look for a key that isn't in a dictionary, you can get a Key error
+    Value of non-existent key is None
     
 Comparators
   Less than <
@@ -34,9 +44,25 @@ Logical Operators
   Not
     Negate a comparison
     
-Basic functions
+Basic functions and methods
   print()
     Print to the screen
   input()
     Used to collect input from user
     Input is saved as a string
+  range()
+    Generates a sequence of numbers, starting at zero, unless otherwise specified
+    Can provide start, stop, and step as parameters
+  .append()
+    Used to add values to list
+
+Loops
+  syntax:
+    for elem in listOrDictionary:
+      code here
+  If you loop over a dictionary, only the values will be printed 
+    Can get key and value with this syntax:
+      for key, value in dictionaries.items():
+        code here
+  
+  

@@ -4,6 +4,9 @@ Hypertext Markup Language
   HTML5 is current version
   https://caniuse.com
     -Shows which browsers support which HTML elements
+    
+Can add style in-line with style attribute. This is frowned upon because it's hard to update/is less flexible.
+Can also add <style></style>
   
 HTML documents
   -Every element has open and close elements

@@ -229,123 +229,66 @@ const copyArrToSnakeCase = arr => {
 }
   
 // CODE HERE
+//review of callbacks
 
+// if I write it this way, I have to add the check to every function the calculator might have, which gets really repetitive
+// const addWithCheck = (num1, num2) => {
+//     if (typeof num1 === "number" && typeof num2 === "number"){
+//         return num1 + num2
+//     } else {
+//         console.log("Please provide numbers")
+//     }
+// }
 
-////////////////////////////////////////
-////// HIGHER ORDER ARRAY METHODS //////
-////////////////////////////////////////
+const add = (num1, num2) => num1 + num2
+//this doesn't account for wrong datatypes
+const subtract = (num1, num2) => num1 - num2
 
-
-//// MAP ////
-
-/*
-    Pass a callback to map that will return 'pink'
-    for each color in the array.
-*/
-
-const colors = ['red', 'blue', 'yellow', 'green', 'orange']
-
-//const mappedColors // = colors.map()
-
-/*
-    Edit the formalGreeting function and use the built in .map method 
-    to map over the names parameter and return a new array with "Hello, " 
-    appended to the beginning of each name
-    
-    Make sure to use arrow functions combined with the map method    
-*/
-
-const formalNames = ['Bernard', 'Elizabeth', 'Conrad', 'Mary Margaret']
-
-const formalGreeting = names => {
-    // CODE HERE
-}
-
-// Call formalGreeting passing in the formalNames array
-
-
-//// FILTER ////
-
-/*
-    Pass a callback to filter that will return
-    only strings that begin with the letter A
-*/
-
-const places = ['Binghampton', 'Albany', 'New York', 'Ithaca', 'Auburn', 'Rochester', 'Buffalo']
-
-//const placesThatStartWithA // = places.filter()
-
-
-/*
-    Create a function called identifier that uses the filter higher order 
-    array method to filter over the provided jobs array of objects
-    The function should return the object of the person with a job as a programmer
-    
-    Make sure to use the arrow function in conjunction with the filter method
-    
-    Your returned value should be a single object, not an array with one object inside of it
-    
-    Use arrow functions and the filter method
-*/
-
-// Do not edit the code below.
-let jobs = [
-	{ receptionist: "James" },
-	{ programmer: "Steve" },
-	{ designer: "Alicia" },
-];
-
-// Do not edit the code above.
-
-// CODE HERE
-
-// call the function passing in the jobs array
-
-
-//// REDUCE ////
-
-/*
-    Edit the productOfArray function and use 
-    the built in .reduce method to loop over the numbers parameter
-    and return the product of all the numbers in the array
-    Make sure to use arrow functions combined with the reduce method    
-*/
-
-const numsToReduce = [43, 7, 24, 79, 290]
-
-const productOfArray = numbers => {
-    // Code here
-}
-
-// CODE HERE
-
-
-// call productOfArray passing in numsToReduce
-
-
-/*
-    Pass a callback and an initial value to reduce 
-    that will subtract all the expenses in the array
-    from the initial budget
-    This will allow us to see how much we have left
-    in the budget after these expenses
-*/
-
-const budget = 2000
-
-const expenses = [
-    {
-        title: 'rent', 
-        amount: 1000
-    }, 
-    {
-        title: 'car payment', 
-        amount: 250
-    }, 
-    {
-        title: 'food', 
-        amount: 300
+const checkThatTakesCalculatorFunctions = (num1, num2, calculationWeWantToRun) => {
+    if (typeof num1 === "number" && typeof num2 === "number"){
+        console.log(calculationWeWantToRun(num1, num2))
+        return calculationWeWantToRun(num1, num2)
+    } else {
+        console.log("Please provide numbers")
     }
-]
+}
 
-//const remaining // = expenses.reduce(//callback, //initial value)
+// checkThatTakesCalculatorFunctions(3, 4, subtract)
+
+
+//I want one number to be consistent (the number being added to the score) and then 
+//I want another number that I can supply (the score) to be added to
+//I don't want to be able to change the first number, only the second number
+
+function createScoreIncrementers(lockedPointsToBeAdded){
+    return function(score){
+        return lockedPointsToBeAdded + score
+    }
+}
+
+function addPointsToScore(points, score){
+    return points + score
+}
+
+function addTenPoints(score){
+    return score + 10
+}
+
+const addFiveToScore = createScoreIncrementers(5)
+const addSevenToScore = createScoreIncrementers(7)
+
+let testscore = 10
+
+console.log(addFiveToScore(testscore))
+
+let engineers = ["Reshma", "Suneetha", "Ciaran"]
+
+function mostSeniorEmployee(arrayofEmployees, whatWeWannaDo){
+    whatWeWannaDo(arrayofEmployees[0])
+}
+
+function givePersonACompliment(nameOfPersonToBeComplimented){
+    console.log(`Hey, ${nameOfPersonToBeComplimented}, you're doing an awesome job!`)
+}
+
+mostSeniorEmployee(engineers, givePersonACompliment)
